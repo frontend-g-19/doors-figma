@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  list-style: none;
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+  /* border: 1px solid #f85b18; */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+nav p {
+  color: #7e8290;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  width: 175px;
+}
+
+nav .location {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+nav .location h2 {
+  color: #f85b18;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+nav .location h2 span {
+  color: #313440;
+}
+
+nav .number {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+nav .number h3 span {
+  color: #9d9ea2;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+nav .number h3 {
+  color: #313440;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 100%;
+}
+
+/* menu */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f4f4f5;
+  margin: 20px auto;
+  padding-right: 12px;
+  border-radius: 8px;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  color: #313440;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 20px 28px;
+}
+
+.menu .search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.menu .search-bar input {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  border: none;
+  outline: none;
+}
+
+.menu .search-bar input::placeholder {
+  color: #313440;
+}
+
+.category {
+  margin: 50px auto;
+}
+
+.category h1 {
+  color: #313440;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  margin-bottom: 30px;
+}
+
+.category .cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.bg-gray {
+  background: #f4f4f5;
+}
+
+.section-1 {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.section-1 .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.section-1 .top h1 {
+  color: #313440;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+}
+
+.section-1 .top div {
+  display: flex;
+  gap: 15px;
+}
+
+.section-1 .top div button {
+  padding: 8px 16px;
+  border-radius: 26px;
+  border: 0;
+  color: #313440;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  background: transparent;
+}
+
+.section-1 .top div button:first-child {
+  background: #313440;
+  color: #ffffff;
+}
+
+.section-1 .doors {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 50px;
+}
+
+.section-1 .doors2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 50px;
+}
+
+.section-1 .doors .card {
+  width: 282px;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #eaebed;
+  padding: 16px;
+}
+
+.section-1 .doors2 .card2 {
+  width: 376px;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #eaebed;
+  padding: 16px;
+}
+
+.section-1 .doors .card h2,
+.section-1 .doors2 .card2 h2 {
+  color: #313440;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 10px 0;
+}
+
+.section-1 .doors .card .price,
+.section-1 .doors2 .card2 .price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.section-1 .doors .card .price p,
+.section-1 .doors2 .card2 .price p {
+  color: #313440;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+/* main-category */
+.main-category {
+  padding: 50px 0;
+}
+
+.main-category h1 {
+  color: #313440;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+}
+
+.main-category .cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 15px;
+  margin-top: 50px;
+}
+
+.main-category .cards .card {
+  text-align: center;
+  padding: 15px;
+  width: 222px;
+  border: 1px solid #eaebed;
+  border-radius: 8px;
+}
+
+.main-category .cards .card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #313440;
+}
