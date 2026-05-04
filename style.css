@@ -257,3 +257,69 @@ nav .number h3 {
   line-height: 20px;
   color: #313440;
 }
+
+.delivery-install {
+  background-image: linear-gradient(
+    to right,
+    #f5faff,
+    #f6feff,
+    #f5fbff,
+    #f1f5fc
+  );
+
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.delivery-install h1 {
+  color: #313440;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+}
+
+.delivery-install p {
+  color: #313440;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  width: 565px;
+  margin: 20px 0;
+}
+
+.delivery-install button {
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 39px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  background-color: #f85b18;
+}
+
+.photo-store {
+  margin: 50px auto;
+}
+
+.photo-store h1 {
+  color: #313440;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  margin-bottom: 30px;
+}
+
+.photo-store .collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.photo-store .collection .ustun {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
