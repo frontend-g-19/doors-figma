@@ -323,3 +323,34 @@ nav .number h3 {
   align-items: center;
   gap: 28px;
 }
+
+.photo-store .cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 50px;
+}
+
+.photo-store .cards .card {
+  width: 273px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #eaebed;
+}
+
+.photo-store .cards .card h2 {
+  color: #313440;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 10px 0;
+}
+
+
+.photo-store .cards .card p {
+  color: #313440;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  width: 240px;
+}
