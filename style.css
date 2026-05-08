@@ -346,11 +346,107 @@ nav .number h3 {
   margin: 10px 0;
 }
 
-
 .photo-store .cards .card p {
   color: #313440;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   width: 240px;
+}
+
+.contact-bg {
+  background-color: #edeeef;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact .form-part h1 {
+  color: #313440;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  margin-bottom: 10px;
+}
+
+.contact .form-part p {
+  color: #313440;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
+.contact .form-part p span {
+  color: #25bb18;
+  font-weight: 700;
+}
+
+.contact form {
+  width: 517px;
+  padding: 32px;
+  border-radius: 8px;
+  background-color: white;
+  margin-top: 35px;
+}
+
+.contact form h2 {
+  color: #313440;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  margin-bottom: 20px;
+}
+
+.contact form label {
+  color: #313440;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.contact form input {
+  padding: 8px;
+  border-radius: 4px;
+  color: #313440;
+  border: 1px solid #babcc3;
+}
+
+.contact form .inputjon {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.contact form .box {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+.contact form .ch-label {
+  color: #313440;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  width: 420px;
+}
+
+.contact form button {
+  width: 100%;
+  border: none;
+  padding: 8px 0;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 39px;
+  background: #f85b18;
 }
